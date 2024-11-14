@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">JajananApp_Bintang</string>
+    <string name="search_makanan">Cari Jajanan</string>
+    <string name="scroll_to_top">Scroll to Top</string>
+    <string name="minus_symbol">—</string>
+    <string name="plus_symbol">＋</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_cart">Keranjang</string>
+    <string name="menu_profile">Profile</string>
+    <string name="required_point">Rp %d</string>
+    <string name="add_to_cart">Tambah ke Keranjang : Rp %d</string>
+    <string name="total_order">Total pesanan : Rp %d</string>
+    <string name="back">Back</string>
+    <string name="share_message">Hi, Aku ingin membeli jajanan %1$d dengan total harga Rp %2$d. Apakah kamu ingin juga?</string>
+
+    <string name="riau">Riau</string>
+    <string name="aceh">Aceh</string>
+    <string name="sumut">Sumatera Utara</string>
+    <string name="sumbar">Sumatera Barat</string>
+    <string name="sumsel">Sumatera Selatan</string>
+    <string name="jabar">Jawa Barat</string>
+    <string name="jateng">Jawa Tengah</string>
+    <string name="jatim">Jawa Timur</string>
+    <string name="kalbar">Kalimantan Barat</string>
+    <string name="sulut">Sulawesi Utara</string>
+    <string name="papua">Papua</string>
+
+    <string name="menu">Menu Jajanan Dari Beberapa Daerah</string>
+
+    <string name="nama">Bintang Abillah Safna</string>
+    <string name="email">bintang.safna@gmail.com</string>
+    <string name="universitas">Telkom University Purwokerto</string>
+    <string name="jurusan"> Rekayasa Perangkat Lunak</string>
+
+    <string name="dark_mode">Dark Mode</string>
+</resources>
