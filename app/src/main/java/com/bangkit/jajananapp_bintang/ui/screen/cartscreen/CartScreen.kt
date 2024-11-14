@@ -88,7 +88,7 @@ fun CartContent(
             }
         )
         LazyVerticalGrid(
-            columns = GridCells.Adaptive(minSize = 128.dp), // Menentukan ukuran minimum setiap item
+            columns = GridCells.Adaptive(minSize = 128.dp), 
             contentPadding = PaddingValues(16.dp),
             verticalArrangement = Arrangement.spacedBy(8.dp),
             horizontalArrangement = Arrangement.spacedBy(8.dp),
