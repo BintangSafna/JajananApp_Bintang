@@ -43,10 +43,8 @@ fun JajananApp(
     modifier: Modifier = Modifier,
     navController: NavHostController = rememberNavController(),
 ) {
-    // Step 1: Introduce state for theme handling
     var isDarkTheme by remember { mutableStateOf(false) }
 
-    // Step 2: Wrap everything in a theme-aware MaterialTheme
     MaterialTheme(
         colorScheme = if (isDarkTheme) darkColorScheme() else lightColorScheme()
     ) {
@@ -81,7 +79,6 @@ fun JajananApp(
                         }
                     )
                 }
-                // Step 3: Adjust ProfileScreen call to pass required parameters
                 composable(Screen.Profile.route) {
                     ProfileScreen(
                         isDarkTheme = isDarkTheme,
@@ -112,8 +109,6 @@ fun JajananApp(
         }
     }
 }
-
-
 
 @Composable
 private fun BottomBar(
